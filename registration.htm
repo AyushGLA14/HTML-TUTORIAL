@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+</head>
+<body style="background-color: rgb(195, 197, 158);">
+    <h1 style="text-align: center;"><p>REGISTRATION FORM</p></h1>
+    <p>Enter you Details To Register Yourself</p>
+    <form action="backend.php">
+        <p>Name</p>
+        <input type="text" placeholder="Enter name">
+        <p>Email id</p>
+        <input type="text" placeholder="Email id">
+        <br><br>
+        <p>Password*</p>
+        <input type="password" placeholder="Password">
+        <br><br>
+        <p>Type your mobile no.</p>
+        <input type="text" placeholder="Enter your mobile no."><br><br>
+        <label for="101">
+            <p>Sex</p>
+            <input type="radio" value = "male" name ="class" id ="101"> male
+        </label><br>
+        <label for="102">
+            <input type="radio" value = "female" name ="class" id ="102"> female
+        </label><br>
+        <label for="103">
+            <p>subject</p>
+            <input type="checkbox" value = "maths" name ="class" id ="101">maths
+        </label><br>
+        <label for="104">
+            <input type="checkbox" value = "chem" name ="class" id ="102"> chem
+        </label><br><br>
+        <p>Enter your Date of birth</p>
+        <input type="date" name="birth date" id=" birth date" min="2000-01-02" >
+        <p>Select your university</p>
+        <select name="University" id="University">
+            <option value="GLA University">GLA University</option>
+            <option value="BHU">BHU</option>
+            <option value="AU">AU</option>
+            <option value="DU">DU</option>
+            <option value="LU">LU</option>
+        </select><br><br>
+        <textarea name="feedback" id="201" placeholder="feedback" cols="10" rows="7">Feedback</textarea><br>
+        <input type="submit" style="background-color: rgb(106, 135, 174);" placeholder="submit" ><br>
+    </form>
+ 
+</body>
+</html>

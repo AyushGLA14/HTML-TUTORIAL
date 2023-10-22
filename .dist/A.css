@@ -1,0 +1,16 @@
+.first{
+    border: 2PX;
+    position: relative;
+    background-color: solid black;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+
+}
+.second{
+    background-color: blue;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+
+}
