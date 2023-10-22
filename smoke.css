@@ -23,7 +23,7 @@ h1{
     text-transform: uppercase;
     color: #ccc8d6;
     font-size: 5em;
-    font-family: serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 h1 span{
