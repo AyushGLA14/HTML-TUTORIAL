@@ -23,7 +23,7 @@ h1{
     text-transform: uppercase;
     color: #ccc8d6;
     font-size: 5em;
-    font-family: ;
+    font-family: serif;
 }
 
 h1 span{
@@ -75,4 +75,16 @@ h1 span:nth-child(7)
 h1 span:nth-child(8)
 {
     animation-delay: 4s;
+}
+h1 span:nth-child(9)
+{
+    animation-delay: 4.7s;
+}
+h1 span:nth-child(10)
+{
+    animation-delay: 5.2s;
+}
+h1 span:nth-child(11)
+{
+    animation-delay: 5.7s;
 }
